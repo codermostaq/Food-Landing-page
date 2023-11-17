@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Oswald&family=Poppins&family=Roboto+Condensed&display=swap');
+*{
+  margin: 0;
+  padding: 0
+}
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#nav{
+  position: fixed;
+  background: black;
+  width: 100%;
+  padding: 10px 0;
+}
+
+#menu{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+#menu ul{
+display: inline-flex;
+}
+
+#menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+
+#menu a{
+  text-decoration: none;
+}
+
+#logo a{
+color: white;
+font-size: 35px;
+font-weight: 600;
+}
+
+#menu ul li a{
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#menu ul li a:hover{
+  background-color: white;
+  color: black;
+}
+
+#images{
+  background: url(./images/Barger2.jpg) no-repeat;
+  opacity: 90%;
+  height: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#images h1, #btn{
+  color: white;
+  text-align: center;
+}
+#images h1,#btn{
+  position:relative;
+  top: 38%;
+}
+
+#learn{
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  margin: 0 10px;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+}
+
+#learn:hover{
+  background-color:transparent;
+  color: white;
+  border-color: black;
+}
+
+#oder{
+  color: white;
+  background-color: black;
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  margin: 0 10px;
+  border: 2px solid black;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+}
+
+#oder:hover{
+  background-color:transparent;
+  color: white;
+  border-color: whitesmoke;
+}
